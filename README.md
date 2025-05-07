@@ -47,49 +47,34 @@ gif video.mp4 -s 3.5 -e 8
 - The script automatically cleans up temporary files after conversion
 
 ## Installation
-
-### macOS
-Using Homebrew:
 ```bash
-# Install ffmpeg
-brew install ffmpeg
-
-# Install gif script
-curl -o /usr/local/bin/gif https://raw.githubusercontent.com/santigallego9/gif/main/gif.sh
-chmod +x /usr/local/bin/gif
+sudo curl -o sudo curl -o /usr/local/bin/gif https://raw.githubusercontent.com/santigallego9/gif/refs/heads/main/gif.sh
+sudo chmod +x /usr/local/bin/gif
 ```
 
-### Linux
+### Install ffmpeg
+#### macOS
+Using Homebrew:
+```bash
+brew install ffmpeg
+```
+
+#### Linux
 Using apt (Debian/Ubuntu):
 ```bash
-# Install ffmpeg
 sudo apt update
 sudo apt install ffmpeg
-
-# Install gif script
-sudo curl -o /usr/local/bin/gif https://raw.githubusercontent.com/santigallego9/gif/main/gif.sh
-sudo chmod +x /usr/local/bin/gif
 ```
 
 Using dnf (Fedora/RHEL):
 ```bash
-# Install ffmpeg
 sudo dnf install ffmpeg
-
-# Install gif script
-sudo curl -o /usr/local/bin/gif https://raw.githubusercontent.com/santigallego9/gif/main/gif.sh
-sudo chmod +x /usr/local/bin/gif
 ```
 
 ### Windows
 Using Chocolatey:
 ```powershell
-# Install ffmpeg
 choco install ffmpeg
-
-# Install gif script (requires Git Bash or WSL)
-curl -o /usr/local/bin/gif https://raw.githubusercontent.com/santigallego9/gif/main/gif.sh
-chmod +x /usr/local/bin/gif
 ```
 
 ### Manual Installation
@@ -97,7 +82,7 @@ If you prefer to install manually:
 1. Download the `gif.sh` script
 2. Make it executable:
 ```bash
-chmod +x gif.sh
+sudo chmod +x gif.sh
 ```
 3. Move it to a directory in your PATH:
 ```bash
